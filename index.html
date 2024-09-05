@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Mate10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSideBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#">Despre noi</a></li>
+            <li><a href="#">Servicii</a></li>
+            <li><a href="#">Contactează-ne</a></li>
+        </ul>
+        <ul class="menu">
+            <li class="hideonPhone"><a href="#">Mate10</a></li>
+            <li class="hideOnPhone"><a href="#">Despre noi</a></li>
+            <li class="hideOnPhone"><a href="#">Servicii</a></li>
+            <li class="hideOnPhone"><a href="#">Contactează-ne</a></li>
+            <li onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+        <div class="container">
+            <div class="img"></div>
+            <div class="cover"></div>
+            <div id="content">
+                <div id="cta">Învață Matematică Gratuit</div>
+                <div id="bcta">fără profesori aroganți sau împrumuturi la bancă, chiar la tine acasă.</div>
+                <div id="regbut">
+                    <button id="login">Am deja un cont</button>
+                    <button id="joinNow">Începe</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
