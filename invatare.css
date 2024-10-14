@@ -113,10 +113,20 @@ footer div
 #main
 {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     padding:2rem;
     padding-top:3.5rem;
+    padding-bottom:0rem;
+}
+
+#content    
+{
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    padding-top:2.5rem;
     padding-bottom:2.5rem;
+    margin-left:10vw;
 }
 
 #header
@@ -149,13 +159,107 @@ h2
     line-height:1.72rem;
 }
 
+h3
+{
+    scroll-margin-top:40px;
+    font-weight:600;
+    font-size:1.25em;
+    margin-top:1.6em;
+    margin-bottom:0.6em;
+}
+
 img
 {
     width:100px;
     height:150px;
 }
 
+main
+{
+    display:flex;
+    flex-direction: row;
+    gap:10vw;
+}
+
+p
+{
+    margin-bottom: 1.25rem;
+    font-size:1.1rem;
+    line-height:1.75;
+    color:rgb(107 114 128 );
+}
+
+ul
+{
+    box-sizing:border-box;
+    border-width:0;
+    border-style:solid;
+    border-color:#e5e7eb;
+}
+
+#table li
+{
+    padding:0.5rem;
+    padding-left:1rem;
+    box-sizing:border-box;
+    border-style:solid;
+    border-width:0;
+    list-style:none;
+    border-left-width:2px;
+    border-color:rgb(209 213 219);
+}
+
+#table li a:hover
+{
+    color: black;
+}
+
+a
+{
+    text-decoration:none;
+    color:#1f2937;
+}
+
+#lisumar
+{
+    padding:0.5rem;
+    padding-left:1rem;
+    color:rgb(107 114 128 );
+}
+
+article
+{
+    max-width:95ch;
+}
+
+.contenttable
+{
+    position:sticky;
+    top:8rem;
+    padding-bottom:5rem;
+}
+
+h4
+{
+    margin-top:1.6em;
+    font-size:1.25em;
+    padding-bottom: 1rem;
+    color:rgb(55 65 81);
+}
+
+#table li a
+{
+    font-size:1.025rem;
+    line-height:1.75;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(107 114 128)
+}
+
 @media(max-width:900px) {
+    .contenttable
+    {
+        display:none;
+    }
     .hideOnPhone {
         display: none;
     }
@@ -181,5 +285,14 @@ img
     h2
     {
         text-align:center;
+    }
+    #content    
+    {
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    padding-top:3.5rem;
+    padding-bottom:2.5rem;
+    margin:0;
     }
 }
