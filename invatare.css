@@ -184,7 +184,7 @@ main
 p
 {
     margin-bottom: 1.25rem;
-    font-size:1.1rem;
+    font-size:1.2rem;
     line-height:1.75;
     color:rgb(107 114 128 );
 }
@@ -223,7 +223,7 @@ a
 #lisumar
 {
     padding:0.5rem;
-    padding-left:1rem;
+    padding-left:2.5rem;
     color:rgb(107 114 128 );
 }
 
@@ -253,6 +253,12 @@ h4
     line-height:1.75;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(107 114 128)
+}
+
+#lisumar li
+{
+    font-size:1.25rem;
+    margin-bottom:1.25rem;
 }
 
 @media(max-width:900px) {
