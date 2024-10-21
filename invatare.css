@@ -165,6 +165,7 @@ h3
     font-weight:600;
     font-size:1.25em;
     margin-top:1.6em;
+    color:rgb(107 114 128 );
     margin-bottom:0.6em;
 }
 
@@ -242,7 +243,8 @@ article
 h4
 {
     margin-top:1.6em;
-    font-size:1.25em;
+    font-size:1.35em;
+    font-weight:500;
     padding-bottom: 1rem;
     color:rgb(55 65 81);
 }
@@ -259,6 +261,16 @@ h4
 {
     font-size:1.25rem;
     margin-bottom:1.25rem;
+}
+
+.knowc a
+{
+    font-size:1.025rem; 
+    text-decoration:underline;
+    text-decoration-color: rgb(107 114 128) ;
+    line-height:1.75;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(107 114 128);
 }
 
 @media(max-width:900px) {
