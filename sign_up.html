@@ -6,6 +6,7 @@
     <title>SignUp</title>
     <link rel="stylesheet" href="signup.css">
     <script defer src="script.js"></script>
+    <script defer src="sign_up.js"></script>
 </head>
 <body>
     <nav>
@@ -33,7 +34,7 @@
     <main>
         <div id="container">
             <h3>Sign Up</h3>
-        <form action=" " method="get">
+        <form id="signup-form" method="post">
             <label for="name">Numele tau intreg</label><br>
             <input type="text" id="name" minlength="3" maxlength="35" required><br>
             <label for="email">Adresa ta de email</label><br>
@@ -47,7 +48,7 @@
                 Da, imi poti trimite email-uri cu promotii si noutati. (optional)</label>
             </div>
             <div id="text">By signing up, I agree to bacmatematica's Terms of Use & Privacy Policy, and the Terms of Use & Privacy Policy of the learning platform. </div>
-        <button>Sign Up</button>
+        <button type="submit" id="sign-up-button">Sign Up</button>
         <div class="login">Ai deja un cont? <a href="login.html">Log In</a></div>
         </div>
     </main>
