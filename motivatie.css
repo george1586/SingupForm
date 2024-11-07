@@ -444,4 +444,17 @@ footer div
         box-sizing: border-box;
         width:100%;
     }
+    #diagrama
+    {
+        display:block;
+        margin: 0;
+        max-height:80%;
+        max-width:115%;   
+    }
+}
+@media(max-width:1000px)
+{
+    .contenttable{
+        display:none;
+    }
 }
