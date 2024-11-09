@@ -34,23 +34,23 @@
     <main>
         <div id="container">
             <h3>Sign Up</h3>
-        <form id="signup-form" method="post">
-            <label for="name">Numele tau intreg</label><br>
-            <input type="text" id="name" minlength="3" maxlength="35" required><br>
+        <form id="signup-form" method="POST" action="/register">
+            <label for="username">Numele tau intreg</label><br>
+            <input type="text" id="username" name="username" minlength="3" maxlength="35" required><br>
             <label for="email">Adresa ta de email</label><br>
-            <input type="email" id="email" required><br>
+            <input type="email" id="email" name="email" required><br>
             <label for="password">Parola ta</label><br>
-            <input type="password" id="password" minlength="3" maxlength="20" required><br>
-        </form>
-        <div class="agrlabel">
-            <input type="checkbox" name="agreement" id="agreement">
-            <label for="agreement" id="lbl">
-                Da, imi poti trimite email-uri cu promotii si noutati. (optional)</label>
+            <input type="password" id="password" name="password" minlength="3" maxlength="20" required><br>
+            <div class="agrlabel">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="lbl">
+                    Da, imi poti trimite email-uri cu promotii si noutati. (optional)</label>
+                </div>
+                <div id="text">By signing up, I agree to bacmatematica's Terms of Use & Privacy Policy, and the Terms of Use & Privacy Policy of the learning platform. </div>
+                <button type="submit" id="sign-up-button">Sign Up</button>
+                <div class="login">Ai deja un cont? <a href="login.html">Log In</a></div>
             </div>
-            <div id="text">By signing up, I agree to bacmatematica's Terms of Use & Privacy Policy, and the Terms of Use & Privacy Policy of the learning platform. </div>
-        <button type="submit" id="sign-up-button">Sign Up</button>
-        <div class="login">Ai deja un cont? <a href="login.html">Log In</a></div>
-        </div>
+        </form>
     </main>
     <footer class="footer">
         <div>© BacMatematica 2024 </div>

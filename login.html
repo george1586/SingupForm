@@ -33,13 +33,13 @@
     <main>
         <div id="container">
             <h3>Log In</h3>
-        <form action=" " method="get">
+        <form method="POST" action="/log_in">
             <label for="email">Adresa ta de email</label><br>
-            <input type="email" id="email" required><br>
+            <input type="email" id="email" name="email" required><br>
             <label for="password">Parola ta</label><br>
-            <input type="password" id="password" minlength="3" maxlength="20" required><br>
+            <input type="password" id="password" name="password" minlength="3" maxlength="20" required><br>
+            <button type="submit">Log In</button>
         </form>
-        <button>Log In</button>
         <div class="login">Nu ai un cont? <a href="sign_up.html">Sign Up</a></div>
         </div>
     </main>

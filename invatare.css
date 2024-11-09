@@ -384,6 +384,12 @@ footer div
     right:0;
 }
 
+.active
+{
+    background-color:rgb(107 114 128);
+    opacity:0.1;
+}   
+
 @media(max-width:900px) {
     .contenttable
     {
